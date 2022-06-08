@@ -1,3 +1,3 @@
 <x-layout>
-    {{ $slot }}
+    Welcome
 </x-layout>
