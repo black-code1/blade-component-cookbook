@@ -1,22 +1,17 @@
 <x-layout>
     <x-section>
-        {{-- <div>
-            <x-dropdown>
+        <x-tabs active="First">
+            <x-tab name="First">
+                First content goes here.
+            </x-tab>
 
-                <x-slot name="trigger">
-                    <button>Click Me</button>
-                </x-slot>
+            <x-tab name="Second">
+                Second content goes here.
+            </x-tab>
 
-                <x-dropdown-link href="/">One</x-dropdown-link>
-                <x-dropdown-link href="/">Two</x-dropdown-link>
-                <x-dropdown-link href="/">Three</x-dropdown-link>
-
-            </x-dropdown>
-        </div> --}}
-
-        <p>
-            Hello World
-        </p>
-
+            <x-tab name="Third">
+                Third content goes here.
+            </x-tab>
+        </x-tabs>
     </x-section>
 </x-layout>
