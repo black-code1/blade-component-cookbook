@@ -1,6 +1,6 @@
 <x-layout>
     <x-section>
-        <div>
+        {{-- <div>
             <x-dropdown>
 
                 <x-slot name="trigger">
@@ -12,7 +12,11 @@
                 <x-dropdown-link href="/">Three</x-dropdown-link>
 
             </x-dropdown>
-        </div>
+        </div> --}}
+
+        <p>
+            Hello World
+        </p>
 
     </x-section>
 </x-layout>

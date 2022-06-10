@@ -3,10 +3,23 @@
 use App\Models\Comment;
 use Illuminate\Support\Facades\Route;
 
+// Select Nav Link Setup
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
+
+Route::get('/about', function () {
+    return view('welcome');
+})->name('about');
+
+Route::get('/testimonials', function () {
+    return view('welcome');
+})->name('testimonials');
+
+Route::get('/contact', function () {
+    return view('welcome');
+})->name('contact');
 
 Route::get('/comments/{comment}/edit', function (Comment $comment) {
     return view('comments.edit', ['comment' => $comment]);
